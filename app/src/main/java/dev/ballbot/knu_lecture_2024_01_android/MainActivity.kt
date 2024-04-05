@@ -2,6 +2,7 @@ package dev.ballbot.knu_lecture_2024_01_android
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -24,5 +25,13 @@ class MainActivity : ComponentActivity() {
             val textView = findViewById<TextView>(R.id.textView);
             textView.setText("World!!");
         }
+
+        val checkbox = findViewById<CheckBox>(R.id.checkBox)
+        checkbox.setOnCheckedChangeListener { _, isChecked ->
+            val textView = findViewById<TextView>(R.id.textView);
+            textView.text = if (isChecked) "checked" else "unchecked";
+        }
+
+
     }
 }
