@@ -22,11 +22,6 @@ class EditTextButton : ComponentActivity() {
         this.subButton = findViewById(R.id.btn2)
         this.resultTextView = findViewById(R.id.res)
 
-        this.addButton.setOnClickListener {
-            _ ->
-            val num1 = Integer.parseInt(input1EditText.text.toString())
-            val num2 = Integer.parseInt(input2EditText.text.toString())
-            resultTextView.text = "Result: " + (num1 + num2)
-        }
+        this.addButton.setOnClickListener { println("af") }
     }
 }

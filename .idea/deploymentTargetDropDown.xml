@@ -2,19 +2,16 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="ADialogTest">
-        <State />
-      </entry>
-      <entry key="ClockActivity">
-        <State />
-      </entry>
       <entry key="DiaryApp">
         <State />
       </entry>
-      <entry key="OptionMenuTest">
+      <entry key="ExternalStorage">
         <State />
       </entry>
-      <entry key="TabHostTest">
+      <entry key="PaintBoardActivity">
+        <State />
+      </entry>
+      <entry key="SimpleImageView">
         <State />
       </entry>
       <entry key="app">
