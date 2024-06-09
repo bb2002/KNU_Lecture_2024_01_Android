@@ -18,20 +18,6 @@ import dev.ballbot.knu_lecture_2024_01_android.ui.theme.KNU_Lecture_2024_01_Andr
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        val button = findViewById<Button>(R.id.button);
-        button.setOnClickListener {
-            val textView = findViewById<TextView>(R.id.textView);
-            textView.setText("World!!");
-        }
-
-        val checkbox = findViewById<CheckBox>(R.id.checkBox)
-        checkbox.setOnCheckedChangeListener { _, isChecked ->
-            val textView = findViewById<TextView>(R.id.textView);
-            textView.text = if (isChecked) "checked" else "unchecked";
-        }
-
-
+        setContentView(R.layout.activity_sqlite)
     }
 }

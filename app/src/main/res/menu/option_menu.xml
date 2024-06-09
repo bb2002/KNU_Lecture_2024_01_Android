@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_red"
+        android:title="RED" />
+    <item android:title="Change Button">
+        <menu>
+            <item android:id="@+id/sub_rotate"
+                android:title="45도 돌리기" />
+            <item android:id="@+id/sub_size"
+                android:title="커져라!" />
+        </menu>
+    </item>
+</menu>
